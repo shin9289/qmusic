@@ -1,0 +1,125 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.index {
+    background-color: #5f473a;
+    height:45px;
+    width:100%;
+    position: fixed;
+    z-index: 1000;
+}
+.index a.logo {
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index a.logo:hover {
+    color:#f4e8d5;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:45px;
+}
+.index li {
+    display:inline;
+    margin-right:4vw;    
+}
+.index ul a {
+    color:white;
+    text-decoration: none;
+}
+.index ul a:hover {
+    text-decoration: underline;
+}
+
+.title{
+    height: 30vh;
+    background-image: url("image/instruments.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.title h1{
+    color:white;
+    text-shadow: #5f473a 0.1em 0.1em 0.2em;
+    position:absolute;
+    right: 60px;
+    top: 75px;
+    line-height: 80px;
+    font-size: 60px;
+}
+main {
+    background-color: #f4e8d5;
+    display: flex;
+    padding: 20px 100px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; 
+}
+
+img {
+    width: 80%;
+}
+
+.left a {
+    background-color: #5f473a;
+    color: #f4e8d5;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+}
+.left a:hover{
+    color: #5f473a;
+    background-color: #c3b193;
+}
+.right{
+    flex: 3;
+}
+.right h1,h2{
+    color: #5f473a;
+}
+.content{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.content h3{
+    color: #5f473a;
+    line-height: 2;
+}
+.content p{
+    line-height: 1.5;
+}
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

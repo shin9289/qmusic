@@ -1,0 +1,152 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.index {
+    background-color: #5f473a;
+    height:45px;
+    width:100%;
+    position: fixed;
+    z-index: 1000;
+}
+.index a.logo {
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index a.logo:hover {
+    color:#f4e8d5;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:45px;
+}
+.index li {
+    display:inline;
+    margin-right:4vw;    
+}
+.index ul a {
+    color:white;
+    text-decoration: none;
+}
+.index ul a:hover {
+    text-decoration: underline;
+}
+
+.title{
+    height: 30vh;
+    background-image: url("image/instruments.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.title h1{
+    color:white;
+    text-shadow: #5f473a 0.1em 0.1em 0.2em;
+    position:absolute;
+    right: 60px;
+    top: 75px;
+    line-height: 80px;
+    font-size: 60px;
+}
+main{
+    background-color: #f4e8d5;
+    display: flex;
+    padding: 50px 100px 20px 150px;
+    height: 60vh;
+}
+.hw-index{
+    flex: 1;
+    align-items: center;
+}
+.hw-index ul{
+    list-style: none;
+    align-items: center;
+    border: 1px solid #5f473a; /* 添加边框 */
+    padding: 10px; /* 添加内边距 */
+    margin: 5px 0; /* 添加上下外边距 */
+    border-radius: 10px; /* 添加圆角 */
+    width: 100px;
+}
+.hw-index li a{
+    color: #5f473a;
+    text-decoration: none;
+}
+.hw-index li a:hover{
+    text-decoration: underline;
+}
+.hw-content{
+    flex: 5;
+    align-items: center;
+    overflow-x: auto; /* 進度條 */
+}
+.hw-content h1{
+    background-color: #c3b193;
+    color: #5f473a;
+    padding: 5px 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.hw1 {
+    columns: 3;
+    column-gap: 1.5em;
+    column-rule-style: solid;
+    height: 50vh;
+    align-items: center;
+    width: 100%;
+}
+.hw1 h2{
+    background-color: rgba(227, 152, 149);
+    color: #f4e8d5;
+}
+#columnbreak {
+    break-before: column;
+}
+.hw1 p{
+    color: #5f473a;
+}
+div.hw2, div.hw3{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hw2 h1, .hw3 h1{
+    width: 100%;
+}
+.hw2 table{
+    color: #5f473a;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.hw3 form{
+    color: #5f473a;
+}
+
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

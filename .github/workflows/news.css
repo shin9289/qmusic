@@ -1,0 +1,83 @@
+* {
+    padding:0;
+    margin:0;
+}
+.index {
+    background-color: #5f473a;
+    height:45px;
+    width:100%;
+    position: fixed;
+    z-index: 1000;
+}
+.index a.logo {
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index a.logo:hover {
+    color:#f4e8d5;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:45px;
+}
+.index li {
+    display:inline;
+    margin-right:4vw;    
+}
+.index ul a {
+    color:white;
+    text-decoration: none;
+}
+.index ul a:hover {
+    text-decoration: underline;
+}
+.title{
+    height: 30vh;
+    background-image: url("image/instruments.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.title h1{
+    color:white;
+    text-shadow: #5f473a 0.1em 0.1em 0.2em;
+    position:absolute;
+    right: 60px;
+    top: 75px;
+    line-height: 80px;
+    font-size: 60px;
+}
+main{
+    background-color: #f4e8d5;
+    padding: 10px 200px;
+}
+.news-list{
+    border-color: #5f473a;
+    border: 3px;
+    line-height: 2;
+}
+.news-list-content{
+    padding: 30px;
+}
+.news-list-content h2{
+    background-color: #c3b193;
+    color: #5f473a;
+    border-radius: 30px;
+    padding: 3px 20px;
+}
+.news-list-content p{
+    margin-left: 40px;
+}

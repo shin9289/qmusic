@@ -1,0 +1,126 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.index {
+    background-color: #5f473a;
+    height:45px;
+    width:100%;
+    position: fixed;
+    z-index: 1000;
+}
+.index a.logo {
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index a.logo:hover {
+    color:#f4e8d5;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:45px;
+}
+.index li {
+    display:inline;
+    margin-right:4vw;    
+}
+.index ul a {
+    color:white;
+    text-decoration: none;
+}
+.index ul a:hover {
+    text-decoration: underline;
+}
+
+.title{
+    height: 30vh;
+    background-image: url("image/instruments.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.title h1{
+    color:white;
+    text-shadow: #5f473a 0.1em 0.1em 0.2em;
+    position:absolute;
+    right: 60px;
+    top: 75px;
+    line-height: 80px;
+    font-size: 60px;
+}
+main {
+    background-color: #f4e8d5;
+    display: flex;
+    flex-direction: row;
+    height: 70vh; 
+    padding: 10px 30px;
+}
+iframe {
+    flex: 4;
+    border: none;
+}
+.content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto; /* 進度條 */
+}
+.select-city {
+    margin-bottom: 10px;
+}
+select{
+    background-color: #f4e8d5;
+    padding: 5px;
+}
+.city-content {
+    display: none; /* 隱藏內容 */
+    overflow-y: auto; /* 進度條 */
+}
+.content-list {
+    margin-bottom: 10px;
+}
+.class-position {
+    display: flex;
+    align-items: center; 
+}
+.class-position img {
+    height: 21px; 
+}
+.class-position h3 {
+    color: #5f473a;
+    margin: 0;
+}
+.text-dark {
+    margin-left: 25px;
+    margin-bottom: 10px; 
+}
+hr {
+    border: 0.5px solid #c3b193;
+}
+.city-content.active {
+    display: block; /* 顯示內容 */
+}
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

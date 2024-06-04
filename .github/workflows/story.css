@@ -1,0 +1,113 @@
+* {
+    padding:0;
+    margin:0;
+}
+.index {
+    background-color: #5f473a;
+    height:45px;
+    width:100%;
+    position: fixed;
+    z-index: 1000;
+}
+.index a.logo {
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index a.logo:hover {
+    color:#f4e8d5;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:45px;
+}
+.index li {
+    display:inline;
+    margin-right:4vw;    
+}
+.index ul a {
+    color:white;
+    text-decoration: none;
+}
+.index ul a:hover {
+    text-decoration: underline;
+}
+.title{
+    height: 30vh;
+    background-image: url("image/instruments.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.title h1{
+    color:white;
+    text-shadow: #5f473a 0.1em 0.1em 0.2em;
+    position:absolute;
+    right: 60px;
+    top: 75px;
+    line-height: 80px;
+    font-size: 60px;
+}
+
+.story{
+    background-color: #f4e8d5;
+    padding: 20px 200px;
+    line-height: 2;
+}
+.story h2{
+    color: #5f473a;
+    font-weight: bold;
+    line-height: 60px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    justify-content: space-between; /* 列均匀分布 */
+    align-items: center;
+    width: 100%;
+}
+.col-md {
+    text-align: center;
+}
+.col-md h2 {
+    background-color: #5f473a;
+    color: #f4e8d5;
+    border-radius: 30px;
+    padding: 1px 10px;
+}
+.fs-2{
+    color: #5f473a;
+    font-weight: bolder;
+}
+img {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+

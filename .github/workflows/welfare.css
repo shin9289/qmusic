@@ -1,0 +1,122 @@
+* {
+    padding:0;
+    margin:0;
+}
+.index {
+    background-color: #5f473a;
+    height:45px;
+    width:100%;
+    position: fixed;
+    z-index: 1000;
+}
+.index a.logo {
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index a.logo:hover {
+    color:#f4e8d5;
+    position:absolute;
+    left: 80px;
+    top:0;
+    line-height: 45px;
+    text-decoration: none;
+}
+.index ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:45px;
+}
+.index li {
+    display:inline;
+    margin-right:4vw;    
+}
+.index ul a {
+    color:white;
+    text-decoration: none;
+}
+.index ul a:hover {
+    text-decoration: underline;
+}
+.title{
+    height: 30vh;
+    background-image: url("image/instruments.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.title h1{
+    color:white;
+    text-shadow: #5f473a 0.1em 0.1em 0.2em;
+    position:absolute;
+    right: 60px;
+    top: 75px;
+    line-height: 80px;
+    font-size: 60px;
+}
+main{
+    background-color: #f4e8d5;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 180px;
+}
+div.head{
+    color: #5f473a;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+}
+div.head img{
+    height: 30%;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p.head{
+    color: #5f473a;
+    font-size: 20px;
+    font-weight: bold;
+}
+.activity-list {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.activity-list div {
+    width:300px;
+    text-align:center;
+    padding: 20px;
+}
+.activity-list img {
+    width:100%;
+    border-radius: 10px;;
+}
+.activity-list h3 {
+    color: #5f473a;
+    font-size: 20px;    
+    margin: 20px 0;
+}
+.activity-list p {
+    font-size:14px;
+    line-height: 1.6em;
+}
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
