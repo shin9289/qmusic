@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音樂教室</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <header>
+        <div class="index">
+        <a class="logo" href="index.html">Q比音樂教育機構<a>
+        <nav>
+          <ul>
+              <li><a href="news.html" target="_blank">最新消息</a></li>
+              <li><a href="story.html" target="_blank">品牌故事</a></li>
+              <li><a href="instruments.html" target="_blank">教授樂器</a></li>
+              <li><a href="members.html" target="_blank">會員專區</a></li>                
+          </ul>
+        </nav> 
+        </div> 
+        <div class="title">
+          <h1>音樂教室</h1>
+        </div> 
+    </header>
+
+    <main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2210226.1170662385!2d121.1147868631976!3d23.683910548144322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1717385031979!5m2!1szh-TW!2stw" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="content">
+            <div class="select-city">
+                <select id="citySelect">
+                    <option value="" data-map-url="">請選擇縣市</option>
+                    <option value="taipei" data-map-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360966.6600961196!2d121.19571851954927!3d25.036228233473082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ac72bce20a99%3A0x3f6a35cedd0ac2e0!2z6Ie65YyX!5e0!3m2!1szh-TW!2stw!4v1717385563938!5m2!1szh-TW!2stw">台北市</option>
+                    <option value="newTaipei" data-map-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d371466.5125122913!2d121.34255256523701!3d24.987720161331083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d5538b0b6645f%3A0x5aa90dfa6620edc0!2z5paw5YyX5biC!5e0!3m2!1szh-TW!2stw!4v1717385732187!5m2!1szh-TW!2stw">新北市</option>
+                    <option value="taichung" data-map-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d455181.96369903395!2d120.62753164179168!3d24.227989483563384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917dff97922ef%3A0x87523ee47ea6447f!2z5Y-w5Lit5biC!5e0!3m2!1szh-TW!2stw!4v1717385839226!5m2!1szh-TW!2stw">台中市</option>
+                    <option value="tainan" data-map-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d335362.9214767454!2d120.11377965785867!3d23.158127374003556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7ccc953ffe13%3A0xd47f4caaa5dc764e!2z5Y-w5Y2X5biC!5e0!3m2!1szh-TW!2stw!4v1717385894235!5m2!1szh-TW!2stw">台南市</option>
+                    <option value="kaohsiung" data-map-url="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d232070.1202094875!2d120.43835554037625!3d22.650706841911408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1717386119510!5m2!1szh-TW!2stw">高雄市</option>
+                </select>
+            </div>
+            <div id="taipei" class="city-content">
+                <div class="content-list">
+                    <div class="class-position">
+                    <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                    <h3>Q比直營-中心教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)25114367<br>
+                        地址：台北市中山區南京東路二段6號10樓
+                    </div>
+                    <hr>
+                </div>
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>敦煌樂器</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)25000608<br>
+                        地址：台北市中山區建國北路二段1號2樓
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>Q比直營-研研教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)27476761~3<br>
+                        地址：台北市松山區南京東路五段108號4F
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>摩爾文教-茱莉安音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)23645025<br>
+                        地址：台北市大安區羅斯福路三段283巷23號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>揚聲音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)28959400<br>
+                        地址：台北市北投區中央北路一段111號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>揚昇石牌音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)28222018<br>
+                        地址：台北市北投區西安街一段349號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>琴昇西湖音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)27994298<br>
+                        地址：台北市內湖區內湖路一段239號2樓
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>琴昇內湖音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)27926220<br>
+                        地址：台北市內湖區成功路四段61巷8弄8號2樓
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>韋音音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)29393300<br>
+                        地址：台北市文山區興隆路四段6-14號1樓
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div id="newTaipei" class="city-content">
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>揚璽音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)29115598<br>
+                        地址：新北市新店區北新路2段252號B1-1
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>協合連城音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)2248-4096<br>
+                        地址：新北市中和區連城路8號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>大成幸福音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)29981846<br>
+                        地址：新北市新莊區幸福路731號2樓
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>山田新莊音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)22763765<br>
+                        地址：新北市新莊區中平路266號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>藝專中山音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(02)22810363<br>
+                        地址：新北市蘆洲區中山一路79號
+                    </div>
+                    <hr>
+                </div>                
+            </div>
+            
+            <div id="taichung" class="city-content">
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>潤音崇德音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)22333330<br>
+                        地址：台中市北區崇德路一段 567號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>潤音北屯音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)22473399<br>
+                        地址：台中市北屯區崇德二路二段292號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>笙揚北屯音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)24351456<br>
+                        地址：台中市北屯區景賢路182號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>潤音青海音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)27070077<br>
+                        地址：台中市西屯區青海路二段173號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>全方位西屯音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)24617675<br>
+                        地址：台中市西屯區福科路337號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>潤音惠中音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)22586000<br>
+                        地址：台中市南屯區惠中路3段30之2號(獨棟電梯教室)
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>第三家文山音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)23899388<br>
+                        地址：台中市南屯區向上路五段92號1-2 樓
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>全方位南屯音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)22513760<br>
+                        地址：台中市南屯區黎明路二段304-1號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>琴箏太平音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)23958513<br>
+                        地址：台中市太平區樹德路88-5號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>藝佳音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)24817358<br>
+                        地址：台中市大里區國光路2段160號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>佳音音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)24928062<br>
+                        地址：台中市大里區成功路112號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>柚子樂器</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)25227893<br>
+                        地址：台中市豐原區圓環東路347號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>展葉音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)26364666<br>
+                        地址：台中市沙鹿區沙田路53之7號1樓
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>全方位清水音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)26236894<br>
+                        地址：台中市清水區大街路142號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>瑩展音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(04)26871003<br>
+                        地址：台中市大甲區民生路9之1號
+                    </div>
+                    <hr>
+                </div>                
+            </div>
+
+            <div id="tainan" class="city-content">
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>凱立音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(06)2599777<br>
+                        地址：台南市北區和緯路四段167號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>藝苑音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(06)2316006<br>
+                        地址：台南市永康區永大路二段1250號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>雅韻音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(06)2395566<br>
+                        地址：台南市歸仁區復興路128號
+                    </div>
+                    <hr>
+                </div>                
+            </div>
+
+            <div id="kaohsiung" class="city-content">
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>民揚音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(07)3965555<br>
+                        地址：高雄市三民區澄清路541號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>綜興岡山音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(07)6211737<br>
+                        地址：高雄市岡山區岡山路305號
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="content-list">
+                    <div class="class-position">
+                        <img src="https://img.icons8.com/?size=100&id=WBBxocgfluLX&format=png&color=7368bb">
+                        <h3>五餅二魚音樂教室</h3>
+                    </div>
+                    <div class="text-dark small">
+                        電話：(07)7833577<br>
+                        地址：高雄市大寮區鳳林三路595號
+                    </div>
+                    <hr>
+                </div>                
+            </div>
+
+        </div>
+        <script>
+            const citySelect = document.getElementById('citySelect');
+            citySelect.addEventListener('change', function() {
+                // 隱藏內容
+                document.querySelectorAll('.city-content').forEach(function(content) {
+                    content.classList.remove('active');
+                });
+        
+                // 顯示內容
+                const selectedCity = citySelect.value;
+                if (selectedCity) {
+                    document.getElementById(selectedCity).classList.add('active');
+                }
+
+                // 更新 iframe 的 src
+                const selectedOption = citySelect.options[citySelect.selectedIndex];
+                const mapUrl = selectedOption.getAttribute('data-map-url');
+                if (mapUrl) {
+                    document.querySelector('iframe').src = mapUrl;
+                }
+            });
+        </script>
+        
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 Q比音樂教育機構 All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
